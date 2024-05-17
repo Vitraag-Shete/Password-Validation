@@ -1,0 +1,122 @@
+/*#container{
+    border: solid black;
+    width: 300px;
+    height: 150px;
+    border-width: 3px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+        color: brown;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: green;
+}
+
+#pointer{
+    cursor: pointer;
+}
+#help{
+    cursor: help;
+}
+#crosshair{
+    cursor: crosshair;
+}
+#move{
+    cursor: move;
+}
+#not-allowed{
+    cursor: not-allowed;
+}
+#text{
+    cursor:text;
+}
+#grabing{
+    cursor: grabing;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+ height: 200px;
+ width: 200px;   
+ border: solid white;
+ border-radius: 30% 30% 30% 30%;
+ border-right-color: black;
+ border-left-color: black;
+ background-color: yellowgreen;
+ border-width: 10px;
+ animation: spin 2s ease infinite;
+ align-content: center;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.card{
+     border: 3px solid black;
+     width: 400px;
+    
+}
+
+video{
+    position: relative;
+    top: 120px;
+    left: 0px;
+    bottom: 0px;
+    right: 200px;
+    //veiwport height - vh
+    //veiwport weidth - vw
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+}
+h1{
+    mix-blend-mode: screen;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 30vh;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}*/
+
+.container{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-width: 4px;
+margin-left: 520px;
+margin-top: 200px;
+align-items: center;
+align-content: center;
+border-radius: 20px;
+}
+input{
+    width: 260px;
+    height: 35px;
+}
+.btn{
+    background-color: brown;
+    color: white;
+    font-size: x-large;
+}
+.btn:hover{
+    background-color:rgb(23, 21, 21);
+    color: white;
+}
